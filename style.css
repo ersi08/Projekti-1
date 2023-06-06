@@ -1,0 +1,370 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.header {
+    background-image: url(./images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px;
+    padding: 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-side {
+    display: flex;
+}
+
+.nav-items ul {
+    display: flex;
+}
+
+.nav-items ul li {
+    margin: 0 30px;
+    
+}
+
+.nav-items ul li a {
+    color: white;
+}
+
+.contactbtn {
+    color: black !important;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.logo img {
+    height: 30px;
+    width: 120px;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.headercontent h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    color: white;
+    margin: 70px;
+    letter-spacing: 0.5rem;
+}
+
+.headercontent img {
+    display: block;
+    margin:0 auto;
+    width: 30px;
+}
+
+.egg {
+    height: fit-content;
+    display: flex;
+}
+
+.rightegg {
+    background-image: url(./images/desktop/image-transform.jpg);
+    width:50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.leftegg {
+    width: 50%;
+    text-align: left;
+    padding: 100px;
+}
+
+.leftegg h1 {
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+}
+
+.leftegg p {
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.leftegg a {
+    color: black;
+    border-bottom: 2px solid yellow;
+    padding: 5px;
+}
+
+.glass {
+    height: fit-content;
+    display: flex;
+}
+
+.leftglass {
+    background-image: url(./images/desktop/image-stand-out.jpg);
+    width:50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rightglass {
+    width: 50%;
+    text-align: left;
+    padding: 100px;
+}
+
+.rightglass h1 {
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+}
+
+.rightglass p {
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.rightglass a {
+    color: black;
+    border-bottom: 2px solid pink;
+    padding: 5px;
+}
+
+.cherry {
+    height: fit-content;
+    display: flex;
+}
+
+.image-left {
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+    width:50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-right {
+    background-image: url(./images/desktop/image-photography.jpg);
+    width:50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.piktura h2 {
+    margin-top: 320px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    color: gray;
+}
+
+.piktura p {
+    margin: 20px 80px;
+    text-align: center;
+}
+
+.review h1 {
+    text-align: center;
+    color: lightgrey;
+    margin-top: 60px;
+    font-size: 16px;
+    font-family: 'Fraunces', serif;
+}
+
+.reviewsection {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.secondreview {
+    margin: 0 45px;
+}
+
+.reviewimage img {
+    border-radius: 50%;
+    height: 82px;
+    width: 82px;
+    display: block;
+    margin: 0 auto;
+}
+
+.feedback {
+    color: darkgray;
+    font-size: 17px;
+    padding:30px 0;
+    text-align: center;
+}
+
+.name {
+    font-size: 17px;
+    text-align: center;
+}
+
+.jobrole {
+    font-size: 12px;
+    text-align: center;
+    color: lightgray;
+}
+
+.fourimages {
+    height: 500px;
+    display: flex;
+}
+
+.image-one , .image-two , .image-three , .image-four {
+  width: 25%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image-one {
+    background-image: url(./images/mobile/image-gallery-milkbottles.jpg);
+}
+
+.image-two {
+    background-image: url(./images/mobile/image-gallery-orange.jpg);
+}
+
+.image-three {
+    background-image: url(./images/mobile/image-gallery-cone.jpg);
+}
+
+.image-four {
+    background-image: url(./images/mobile/image-gallery-sugar-cubes.jpg);
+}
+
+.footer {
+    background-color: #90d4c5;
+    padding: 50px 0px;
+}
+
+.footer img {
+    display: block;
+    margin: 0 auto;
+}
+
+.social {
+    display: flex;
+    width: 180px;
+    margin: 0 auto;
+}
+
+.social img {
+    width: 14px;
+}
+
+.services {
+    width:fit-content;
+    margin :18px auto 35px;
+}
+.services ul {
+    display: flex;
+}
+
+.services li {
+    padding: 10px;
+}
+
+.services a {
+    color : #25564b;
+}
+
+@media screen and (max-width: 650px){
+  
+.nav-items {
+     display: none;
+  }
+
+.menu-icon {
+   display: contents;
+  }
+
+  .headercontent h2 {
+    margin: 70px 0;
+  }
+
+  .menu-icon img {
+    width : 22px;
+    height: 19px;
+  }
+
+  .egg {
+    flex-direction: column-reverse;
+  }
+
+  .leftegg {
+    width: 100%;
+  }
+
+  .rightegg {
+    width: 100%;
+    height: 400px;
+  }
+
+  .glass{
+    flex-direction: column;
+  }
+
+  .leftglass {
+    width: 100%;
+    height: 400px;
+  }
+
+  .rightglass {
+    width: 100%;
+  }
+
+  .cherry {
+    flex-direction: column;
+  }
+
+  .piktura {
+    width: 100%;
+  }
+
+  .reviewsection {
+    flex-direction: column;
+  }
+
+  .secondreview {
+    margin: 35px 0;
+  }
+
+  .feedback {
+    padding: 5px 0;
+  }
+
+  .fourimages {
+    flex-wrap: wrap;
+  }
+
+  .fourimages div{
+    flex: 50%;
+  }
+}
+
+@media screen and (max-width: 420px){
+    .headercontent h2 {
+        font-size: 2.2rem;
+    }
+}
+
